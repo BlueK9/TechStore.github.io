@@ -1,0 +1,223 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond:400,500,500i,600,600i,700,700i |Cormorant+SC:400,500,600,700');
+* {
+    box-sizing: border-box;
+    user-select: none;
+  }
+  
+body{
+   /* padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    */
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    color: white;
+    font-family: "Cormorant Garamond", serif;
+}
+
+.header{
+    width: 100%;
+    border: 1px solid #000;
+    border-left: none;
+    border-right: none;
+}
+
+.header .navbar{
+    height: 90px;
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.header .container-fluid{
+    position: relative;
+    right: 0px;
+    top: 20px;
+}
+
+.header .navbar-toggler{
+    background-color: white;
+    display: block;
+    position: absolute;
+    bottom: 20px;
+    left: 350px;
+    z-index: 1;
+
+}
+
+.header .offcanvas-body li a{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+}
+
+
+.form-control{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+}
+
+.header .menu_items {
+    padding: 0 25px;
+    list-style: none;
+    display: inline-flex;
+    position: relative;
+    bottom: 70px;
+    left: 645px;
+}
+
+
+.header .menu_items li {
+    border-radius: 3px;
+    margin: 0 5px;
+}
+
+.header .menu_items li a {
+    text-decoration: none;
+    font-size: 18px;
+    padding: 0 12px;
+    color: white;
+
+}
+
+.header .menu_items li:hover, li:active {
+    background-color: slategrey;
+    border-radius: 150px;
+    transition: .4s;
+}
+
+.header .Buscador{
+    width: 100%;
+    position: relative;
+    bottom: 60px;
+    left: -60px;
+    display: inline-flex;
+    justify-content: center;
+    margin-top: 15px;
+
+}
+
+.header .Carrito{
+    position: relative;
+    bottom: 115px;
+    left: 980px;
+    color: white;
+}
+
+.header .carrito {
+    position: absolute;
+    top: 50%;
+    right: 80px; /* Cambiar la cantidad de píxeles para ajustar el icono */
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: white;
+  }
+  
+.Hamburguesa .cart{
+    position: absolute;
+    top: 2%;
+    right: 80px; /* Cambiar la cantidad de píxeles para ajustar el icono */
+    transform: translateY(-2%);
+    cursor: pointer;
+    color: blue;
+}
+
+
+
+
+@media screen and (max-width: 1700px) {
+ 
+
+    .header .container-fluid{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        top: -4px;
+    }
+    .header .logoo{
+        display: inline-block;
+        height: 30px;
+        width: 50px;
+    }
+
+    .header .Buscador {
+        display: inline-flex;
+        justify-content: center;
+        margin-bottom: 15px;
+        position: relative;
+        top: 0px;
+        left: 0px; 
+        width: 100%;
+
+    }
+
+
+    .header .menu_items{
+        display: none;
+    }
+    .header .navbar-toggler{
+        display: block;
+        position: absolute;
+        width: 60px;
+        height: 40px;
+        top: 6px;
+        left: 50px;
+        cursor: pointer;
+        
+    }
+
+    .header .navbar-toggler-text{
+        display: none;
+        
+    }
+
+ 
+
+  }
+
+
+  @media screen and (max-width: 600px){
+
+    .header .carrito{
+        position: absolute;
+        top: 20%;
+        right: 30px; /* Cambiar la cantidad de píxeles para ajustar el icono */
+        transform: translateY(-20%);
+        cursor: pointer;
+        color: white;
+    }
+  }
+
+
+  /*
+
+  .carrusel {
+    width: 100%;
+    padding-top: 15px;
+
+    margin-right: auto;
+    margin-left: auto;
+
+  }
+
+
+  .carrusel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding-bottom: 335px;
+    
+  }
+
+    */
+
+
+  /* ====================================
+General Styles
+==================================== */

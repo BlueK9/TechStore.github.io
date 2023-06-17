@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smartphones</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" 
+    rel="stylesheet" 
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" 
+    crossorigin="anonymous">
+    <link href="giftcards.css" rel="stylesheet">
+    <link rel="stylesheet" href="General.css">
+    <link rel="stylesheet" href="footer.css">
+    <script defer src="carrito.js"></script>
+    <link rel="stylesheet" href="carrito.css">
+
+     <!--FOOTER-->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css">
+
+     <!--FOOTER-->
+
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+ 
+    
+
+
+</head>
+<body>
+
+
+  
+  <header class="header">
+    <nav class="navbar" style="background-color: #007bff;" >
+      <div class="container-fluid">
+        <a class="logo" href="#">
+          <img src="TechStore.png" alt="marca" width="90px" class="logoo">
+      </div>
+
+
+      <div class="Hamburguesa">
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        <span class="navbar-toggler-text">Menú</span>
+      </button>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+
+        <div class="cart">
+          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-cart3" viewBox="0 0 16 16">
+            <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l.84 4.479 9.144-.459L13.89 4H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+          </svg>
+          <span class="cart-option-text">Cart</span>
+        </div>
+        
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="computadoras.html">Computadoras</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="televisores.html">Televisores</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Smartphone.html">Smartphones</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Keys.html">Keys-Activaciones</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Giftcards.html">Gift cards</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Cuenta
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="Registro.html">Iniciar Sesión</a></li>
+                <li><a class="dropdown-item" href="Registro.html">Registrarse</a></li>
+  
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Recuperar cuenta</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex mt-3" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Buscar</button>
+          </form>
+        </div>
+        
+      </div>
+
+      <nav class="Buscador">
+        <div class="container-fluid">
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit" style="background-color: rgb(255, 255, 255); " >Buscar</button>
+          </form>
+        </div>
+      </nav>
+
+
+      <ul class="menu_items">
+
+        <li class="login-register" ><a href="Registro.html">Registrarse</a></li>
+        <li class="login-register" ><a href="Registro.html">Iniciar sesión</a></li>
+  
+  
+      </ul>
+      
+    
+
+
+
+			<div class="container-icon">
+				<div class="container-cart-icon">
+					<svg
+						xmlns="http://www.w3.org/2000/svg"
+						fill="none"
+						viewBox="0 0 24 24"
+						stroke-width="1.5"
+						stroke="currentColor"
+						class="icon-cart"
+					>
+						<path
+							stroke-linecap="round"
+							stroke-linejoin="round"
+							d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l.84 4.479 9.144-.459L13.89 4H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"
+							/>
+					</svg>
+					<div class="count-products">
+						<span id="contador-productos">0</span>
+					</div>
+				</div>
+
+				<div class="container-cart-products hidden-cart">
+					<div class="row-product hidden">
+						<div class="cart-product">
+							<div class="info-cart-product">
+								<span class="cantidad-producto-carrito">1</span>
+								<p class="titulo-producto-carrito">Microsoft Project</p>
+								<span class="precio-producto-carrito">S/150</span>
+							</div>
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								fill="none"
+								viewBox="0 0 24 24"
+								stroke-width="1.5"
+								stroke="currentColor"
+								class="icon-close"
+							>
+								<path
+									stroke-linecap="round"
+									stroke-linejoin="round"
+									d="M6 18L18 6M6 6l12 12"
+								/>
+							</svg>
+						</div>
+					</div>
+
+					<div class="cart-total hidden">
+						<h3>Total:</h3>
+						<span class="total-pagar">S/200</span>
+					</div>
+					<p class="cart-empty">El carrito está vacío</p>
+          <a href="pago.html" class="checkout-btn">Ir a Pago</a>
+
+				</div>
+			</div>
+
+
+
+
+    </nav>
+  </header>
+
+
+<main>
+    <div class="container">
+        <!---producto1--->
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">  
+            <div class="col">
+              <div class="card shadow-sm">
+                <img src="SP-xiaomi-redmi-9a-celular-2gb-32-mtk-helio-g25-octa-n-cleo.jpg">
+               <div class="card-body">
+                <h5 class="card-title">Xiaomi </h5>
+                <p class="card-text">S/359</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                      <a class="btn btn-primary">Detalles </a>
+                  </div>
+                  <a class="btn btn-success">Agregar </a>
+
+                </div>                  
+                </div>
+              </div>
+            </div>
+
+
+            <!---producto2--->
+              <div class="col">
+              <div class="card shadow-sm">
+                <img src="SP-Redmi-12.jpg">
+               <div class="card-body">
+                <h5 class="card-title">Redmi 12C</h5>
+                <p class="card-text">S/359</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                      <a class="btn btn-primary">Detalles </a>
+                  </div>
+                  <a class="btn btn-success">Agregar </a>
+
+                </div>                  
+                </div>
+              </div>
+            </div>
+            <!---producto3--->
+            <div class="col">
+              <div class="card shadow-sm">
+                <img src="SP-Redmi-a1.jpg">
+               <div class="card-body">
+                <h5 class="card-title">Redmi a1</h5>
+                <p class="card-text">S/309</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                      <a class="btn btn-primary">Detalles </a>
+                  </div>
+                  <a class="btn btn-success">Agregar </a>
+
+                </div>                   
+                </div>
+              </div>
+            </div>
+            <!---producto4--->
+            <div class="col">
+              <div class="card shadow-sm">
+                <img src="SP-motorola E20.jpg">
+               <div class="card-body">
+                <h5 class="card-title">Motorola E20</h5>
+                <p class="card-text">S/579</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                      <a class="btn btn-primary">Detalles </a>
+                  </div>
+                  <a class="btn btn-success">Agregar </a>
+
+                </div>                   
+                </div>
+              </div>
+            </div>
+            <!---producto5--->
+            <div class="col">
+              <div class="card shadow-sm">
+                <img src="SP-LG K40s.jpg">
+               <div class="card-body">
+                <h5 class="card-title">LG K40s</h5>
+                <p class="card-text">S/739</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                      <a class="btn btn-primary">Detalles </a>
+                  </div>
+                  <a class="btn btn-success">Agregar </a>
+
+                </div>                   
+                </div>
+              </div>
+            </div>
+            <!---producto6--->
+            <div class="col">
+              <div class="card shadow-sm">
+                <img src="SP-Samsung-A03-Core-32GB.jpg">
+               <div class="card-body">
+                  <h5 class="card-title">Samsung A03 Core 32GB</h5>
+                  <p class="card-text">S/619</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                        <a class="btn btn-primary">Detalles </a>
+                    </div>
+                    <a class="btn btn-success">Agregar </a>
+  
+                  </div>                   
+                </div>
+              </div>
+            </div>
+
+        </div>
+    </div>
+</main>
+
+<!--
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" 
+integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+ crossorigin="anonymous"></script>
+-->
+
+
+
+
+<footer class="footer">
+
+  <link rel="stylesheet" href="footer.css">
+
+  <div class="container">
+    <div class="row">
+      <div class="footer-col">
+        <h4>company</h4>
+        <ul>
+          <li><a href="aboutus.html">sobre nosotros</a></li>
+          <li><a href="#">contactanos</a></li>
+          <li><a href="TermsandCond.html">termimos y condiciones</a></li>
+          <li><a href="PPrivacy.html">politicas de privacidad</a></li>
+
+          
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>get help</h4>
+        <ul>
+          <li><a href="EandRfnds.html">cambios y devoluciones</a></li>
+          <li><a href="Warranty.html">garantias</a></li>
+          <li><a href="#">metodo de pagos</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>online shop</h4>
+        <ul>
+          <li><a href="Smartphone.html">Smartphones</a></li>
+          <li><a href="televisores.html">Televisores</a></li>
+          <li><a href="computadoras.html">computadoras</a></li>
+          <li><a href="Giftcards.html">Giftcards</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>follow us</h4>
+        <div class="social-links">
+          <a href="https://www.facebook.com/UPN/"><i class="bi bi-facebook"></i></a>
+          <a href="#"><i class="bi bi-twitter"></i></a>
+          <a href="https://www.instagram.com/upn/"><i class="bi bi-instagram"></i></a>
+          <a href="https://api.whatsapp.com/send?phone=51991807774"><i class="bi bi-whatsapp"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>     

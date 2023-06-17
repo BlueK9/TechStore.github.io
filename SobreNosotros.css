@@ -1,0 +1,33 @@
+.image-1 {
+  
+  width: 434px;                 
+  height: 536px;
+  margin: -19px 91px 0 auto;
+}
+
+.img {
+  width: 434px;
+  height: 536px;
+  margin: -19px 91px 0 auto;
+}
+
+.text{
+  display: flex;
+}
+.text>div{
+  width: 434px;
+  padding: 10px;
+}
+
+
+@media (max-width: 1199px) {
+   .text{
+    display:block;
+  }
+}
+.text>div{
+    width: 540px;
+    padding:  58px;
+  }
+
+
